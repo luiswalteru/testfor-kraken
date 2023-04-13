@@ -1,0 +1,47 @@
+{
+  "name": "dsadsfdsfsd",
+  "description": "fffff",
+  "version": "2022.11.11-2",
+  "private": true,
+  "engines": {
+    "node": "^10.24.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+  },
+  "dependencies": {
+    
+    "redux-thunk": "2.3.0",
+    "sass": "1.49.0",
+    "uuid": "8.3.2",
+    "xlsexport": "1.5.2",
+    "xlsx-parse-json": "3.1.0",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "redux-logger": "3.0.6",
+    "stylelint": "^13.8",
+    "stylelint-config-standard": "^20.0.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "lint-staged": {
+    "**/*.{scss,css}": [
+      "stylelint --fix"
+    ],
+    "src/**/*.{js,jsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ]
+  }
+}
